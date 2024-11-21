@@ -48,8 +48,9 @@
     font-style: normal;
     color: rgb(1, 44, 83);
  }
- 
- .contenedor-columnas ol, ul {
+
+ .contenedor-columnas ol,
+ ul {
     font-family: "Albert Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: weight;
@@ -68,10 +69,10 @@
 
  .datos-personales p,
  a {
-   font-family: "Alegreya Sans", sans-serif;
-   font-weight: 500;
-   font-style: normal;
-   color: rgb(7, 10, 43);
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(7, 10, 43);
     text-align: center;
     text-decoration: none;
     font-size: 16px;
@@ -134,4 +135,23 @@
     width: 0px;
     height: 15px;
     background-color: hsl(204, 67%, 41%);
+ }
+
+ .preparacion {
+    display: flex;
+    flex-direction: row;
+    margin: 0 40px;
+ }
+
+ .año-preparacion {
+    min-width: 45px;
+ }
+
+ .año-preparacion p {
+    color: rgb(13, 0, 31);
+    font-weight: 500;
+ }
+
+ .texto-preparacion p {
+    color: rgb(13, 0, 31);
  }
