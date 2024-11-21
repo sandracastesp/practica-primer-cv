@@ -1,39 +1,60 @@
  body {
-    background-color: rgb(252, 254, 255);
+    background-color: rgb(237, 245, 255);
  }
 
  h1 {
-    color: rgb(0, 0, 146);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(24, 24, 146);
+    font-family: "Mona Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
     text-align: center;
  }
 
+ h2 {
+    background-color: rgb(168, 196, 255);
+    border: solid 2px rgb(79, 97, 138);
+    border-radius: 250vw;
+    text-align: center;
+    padding: 10px 0;
+    margin: 10px 150px 20px 150px;
+    font-family: "Geologica", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(24, 24, 146);
+ }
+
  .foto-cv img {
-   width: 120px;
-   height: 120px;
-   border-radius: 450%;
-   text-align: center;
-   display: block;
-   margin: 0 auto;
-}
+    width: 120px;
+    height: 120px;
+    border-radius: 450%;
+    border: 4px solid rgb(19, 58, 167);
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+ }
+
  .contenedor-columnas {
     column-count: 2;
-    column-gap: 90px;
-    column-fill: auto;
+    column-gap: 100px;
+    column-fill: balance;
     height: 125vh;
  }
 
-.contenedor-columnas p, ol, ul{
-   font-family: "Albert Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-  color: rgb(13, 0, 31);
-}
-
- h2 {
-    color: rgba(0, 14, 95, 0.919);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ .contenedor-columnas p {
+    font-family: "Albert Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: rgb(1, 44, 83);
+ }
+ 
+ .contenedor-columnas ol, ul {
+    font-family: "Albert Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: rgb(13, 0, 31);
  }
 
  .datos-personales img {
@@ -45,19 +66,16 @@
     vertical-align: top;
  }
 
- .datos-personales p, a {
-    color: rgb(1, 0, 2);
-    text-decoration: none;
-    font-size: 14px;
-    display:inline-flex;
- }
-
- h2 {
-    border: solid 2px rgb(114, 157, 250);
-    border-radius: 250vw;
+ .datos-personales p,
+ a {
+   font-family: "Alegreya Sans", sans-serif;
+   font-weight: 500;
+   font-style: normal;
+   color: rgb(7, 10, 43);
     text-align: center;
-    padding: 10px 0;
-
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-flex;
  }
 
  h3,
@@ -65,16 +83,21 @@
  h5,
  h6 {
     color: rgb(96, 96, 126);
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
     font-size: 18px;
     border: solid 2px rgb(114, 157, 250);
     border-radius: 250vw;
     text-align: center;
     padding: 10px 0;
+    margin: 10px 50px 10px 50px;
  }
 
  .barra-progreso1 {
-    width: 50%;
-    background-color: hsl(298, 37%, 81%);
+    width: 40%;
+    background-color: hsl(0, 0%, 100%);
+    border: solid 1px rgb(0, 0, 0);
     border-radius: 12px;
     overflow: hidden;
  }
@@ -82,12 +105,13 @@
  .progreso1 {
     width: 0px;
     height: 15px;
-    background-color: #2ea9b9;
+    background-color: hsl(204, 67%, 41%);
  }
 
  .barra-progreso2 {
-    width: 50%;
-    background-color: hsl(298, 37%, 81%);
+    width: 40%;
+    background-color: hsl(0, 0%, 100%);
+    border: solid 1px rgb(0, 0, 0);
     border-radius: 12px;
     overflow: hidden;
  }
@@ -95,12 +119,13 @@
  .progreso2 {
     width: 0px;
     height: 15px;
-    background-color: #2ea9b9;
+    background-color: hsl(204, 67%, 41%);
  }
 
  .barra-progreso3 {
-    width: 50%;
-    background-color: hsl(298, 37%, 81%);
+    width: 40%;
+    background-color: hsl(0, 0%, 100%);
+    border: solid 1px rgb(0, 0, 0);
     border-radius: 12px;
     overflow: hidden;
  }
@@ -108,5 +133,5 @@
  .progreso3 {
     width: 0px;
     height: 15px;
-    background-color: #2ea9b9;
+    background-color: hsl(204, 67%, 41%);
  }
